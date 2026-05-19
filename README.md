@@ -21,3 +21,20 @@ AI-powered health literacy assistant for explaining medicines in simple language
 
 ```bash
 uvicorn backend.main:app --reload
+```
+
+## Run Frontend
+```
+streamlit run frontend/app.py
+```
+---
+
+# 9. Connect GitHub
+
+Initialize Git:
+
+```bash
+git init
+git add .
+git commit -m "Initial Stage 1 MVP setup"
+```
